@@ -35,6 +35,7 @@
   background: none;
   text-transform: lowercase;
   font-size: 18px;
+  line-height: 18px;
   padding: 1.5px 13px 1.5px 13px;
 }
 
@@ -117,6 +118,7 @@
 .title-decor {
   background-color: var(--accent-color);
   color: #000028;
+  line-height: 1.3em;
 }
 
 .article-title {
@@ -136,7 +138,8 @@
 
 .main__title {
   font-size: 18px;
-  color: var(--color-text);
+  color: var(--color-subtitle);
+  line-height: 1.3em;
 }
 
 .main__article-list {
@@ -152,6 +155,7 @@
 .main__text {
   font-size: 18px;
   color: var(--color-text);
+  line-height: 1.3em;
 }
 
 .tip-title {
@@ -220,6 +224,8 @@
 
   .header__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    position: relative;
+    right: 20px;
   }
 
   .header__title-text {
