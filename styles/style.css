@@ -36,7 +36,7 @@
   text-transform: lowercase;
   font-size: 18px;
   line-height: 18px;
-  padding: 1.5px 13px 1.5px 13px;
+  padding: 1.5px 13px 5.5px 13px;
 }
 
 .header__theme-menu-button_active {
@@ -190,6 +190,11 @@
   gap: 20px;
 }
 
+.main__section-image {
+  display: grid;
+  gap: 10px;
+}
+
 .main__section-list {
   display: grid;
   gap: 10px;
@@ -255,6 +260,7 @@
 
   .main__section {
     grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
   }
 
   .main__title {
