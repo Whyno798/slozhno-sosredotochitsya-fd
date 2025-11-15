@@ -11,6 +11,7 @@
   */
   --background: url(../images/cover-image-light.png);
   --background-color: #fff1f7;
+  --title-decor: #353430;
   --accent-color: #ff8dcb;
   --header-color: rgba(53, 52, 48);
   --color-subtitle: #353430;
@@ -23,6 +24,7 @@
   :root {
     --background: url(../images/cover-image-light.png);
     --background-color: #fff1f7;
+    --title-decor: #353430;
     --accent-color: #ff8dcb;
     --header-color: rgba(53, 52, 48);
     --color-subtitle: #353430;

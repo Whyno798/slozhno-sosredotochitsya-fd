@@ -6,6 +6,7 @@
 :root {
   --background: url(../images/cover-image-dark.png);
   --background-color: #000028;
+  --title-decor: #000028;
   --accent-color: #ff0070;
   --header-color: rgba(255, 0, 112);
   --color-subtitle: #ff0070;
